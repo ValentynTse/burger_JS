@@ -1,0 +1,38 @@
+//========COLORS========//
+$main-text-color:#545971;
+$dark-text-color:#171921;
+$light-text-color:#9EA3B5;
+$white-text-color:#FFFFFF;
+$black-text-color:#000000;
+
+$primary-color:#15B2F5;
+
+$white-bgd-color:#FFFFFF;
+$dark-bgd-color:#142257;
+
+//=============WIDTHS===================//
+
+//Мінімальна ширина сторінки
+$minWidth: 320;
+//Ширина полотна(макету)
+$maxWidth: 1920;
+//Ширина контейнера
+$maxWidthContainer: 1160;
+//Падінги контейнера
+$containerPadding: 30;
+
+//=============BREAKPOINTS============//
+
+//Ширина спрацювання першого брейкпойнту
+$containerWidth:$maxWidthContainer+ $containerPadding;
+
+//Брейкпойнти
+$pc: em($containerWidth);
+$tablet: em(991.98);
+$mobile: em(767.98);
+$mobileSmall: em(767.98);
+
+//Тип адаптиву
+//1 = чуйність (у контейнера немає брейкпонтів)
+//2 = по брейк-пойнтам
+$responsiveType: 1;
