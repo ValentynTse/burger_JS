@@ -36,7 +36,6 @@ if (isMobile.any()) {
          menuArrow.addEventListener("click", function (e) {
             menuArrow.parentElement.classList.toggle("_active");
          });
-
       }
    }
 } else {
@@ -44,7 +43,6 @@ if (isMobile.any()) {
 };
 
 //Меню бургера
-
 const iconMenu = document.querySelector(".icon-menu");
 const menuBody = document.querySelector(".menu__body");
 if (iconMenu) {
