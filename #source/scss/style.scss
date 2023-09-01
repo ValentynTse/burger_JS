@@ -10,10 +10,7 @@ body {
 
 body {
    font-family: Arial, sans-serif;
-   color: $white-text-color;
-   &._lock {
-      overflow: hidden;
-   }
+   color: $white-text-color;   
 }
 
 .header {
@@ -42,6 +39,7 @@ body {
       z-index: 3;
       img {
          max-width: 100%;
+         max-height: 100%;
       }
    }
 }
@@ -161,6 +159,7 @@ body {
       }
    }
 }
+//Burger
 body {
    &._pc {
       .menu__list {
@@ -208,8 +207,10 @@ body {
          }
       }
    }
+   &._lock {
+      overflow: hidden;
+   }
 }
-
 .icon-menu {
    display: none;
    @media (max-width: $mobile) {
@@ -260,6 +261,7 @@ body {
    }
 }
 
+//==========================
 .page {
    padding: toRem(90) toRem(0) toRem(30) toRem(0);
    // .page__section

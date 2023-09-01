@@ -78,9 +78,6 @@ body {
   font-family: Arial, sans-serif;
   color: #FFFFFF;
 }
-body._lock {
-  overflow: hidden;
-}
 
 .header {
   position: fixed;
@@ -109,6 +106,7 @@ body._lock {
 }
 .header__logo img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 .menu__arrow {
@@ -251,6 +249,9 @@ body._touch .menu__list > li._active .menu__arrow {
 }
 body._touch .menu__list .menu__link {
   flex: 1 1 auto;
+}
+body._lock {
+  overflow: hidden;
 }
 
 .icon-menu {
